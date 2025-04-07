@@ -1,0 +1,27 @@
+version: '3.9'
+
+services:
+  app1:
+    image: nginx
+    ports:
+      - "8090:80"
+
+# servivce:
+#   busybox1:
+#     image: busybox
+#     container_name: busybox1
+#     command: sleep 3600
+#     network: 
+#       - custom_network
+
+# service: 
+#   busybox2:
+#     image: busybox
+#     container_name: busybox2
+#     command: sleep 3600
+#     network:
+#       - custom_network
+
+# network:
+#   custom_network:
+#     driver: bridge
