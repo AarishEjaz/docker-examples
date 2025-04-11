@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  nginx:
+    image: nginx
+    environment:
+      NAME: ${NGINX_NAME}
+      USER: ${NGINX_USER}
+      PASSWORD: ${NGINX_PASSWORD} 
